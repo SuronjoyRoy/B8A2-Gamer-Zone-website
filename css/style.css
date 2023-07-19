@@ -33,6 +33,7 @@ align-items: center;
 .menu> ul {
 display: flex;
 align-items: center;
+gap: 30px;
 }
 
 .menu> ul li {
@@ -43,7 +44,6 @@ list-style: none;
 text-decoration: none;
 font-size: 1rem;
 color: #3C354F;
-padding-right: 45px;
 }
 .logo img {
 width: 65px;
@@ -54,6 +54,16 @@ margin-right: 15px;
 font-size: 1.8rem;
 font-weight: bold;
 color: #0B0223;
+}
+.header-btn {
+  background: #e7e6e9;
+  padding: 12px 12px;
+  border-radius: 7px;
+  font-weight: 500;
+}
+
+li.header-btn i {
+  padding-left: 10px;
 }
 /* Banner css styles */
 .banner-area{
@@ -165,7 +175,6 @@ small p {
 .optional-content p {
   color: #534C64;
   font-size: 16px;
-  margin: auto;
   padding-left: 163px;
   margin-bottom: 20px;
 }
@@ -317,7 +326,9 @@ button.carrier-btn {
   justify-content: space-evenly;
   margin-bottom: 30px;
 }
-
+.games-contet-left {
+  margin-top: -210px;
+}
 .gammer-area {
   padding: 80px 0px;
 }
@@ -376,7 +387,10 @@ footer {
   margin-bottom: 30px;
 }
 
-small p {
+small span {
   color: #ddddddbf;
   font-size: 15px;
+}
+.footer-logo h4 {
+  font-size: 35px;
 }
