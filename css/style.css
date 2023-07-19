@@ -1,23 +1,275 @@
 /* Google font link */
 
-  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap');
 
-  /* Default css */
-  *{
-    margin: 0;
-    padding: 0;
-  }
+/* Default css */
+*{
+  margin: 0;
+  padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
 .color-title{
-    color: #F948B2;
+  color: #F948B2;
 }
 /* Header css styles */
 .container {
-    width: 1140px;
-    margin: 0 auto;
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .logo-menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+.logo {
+display: flex;
+align-items: center;
+}
+
+.menu> ul {
+display: flex;
+align-items: center;
+}
+
+.menu> ul li {
+list-style: none;
+}
+
+.menu> ul li a {
+text-decoration: none;
+font-size: 1rem;
+color: #3C354F;
+padding-right: 45px;
+}
+.logo img {
+width: 65px;
+object-fit: cover;
+margin-right: 15px;
+}
+.logo h4 {
+font-size: 1.8rem;
+font-weight: bold;
+color: #0B0223;
+}
+/* Banner css styles */
+.banner-area{
+background-image: url(../images/Group\ 14.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.banner-content {
+display: flex;
+align-items: center;
+padding-top: 20px;
+}
+
+.banner-left {
+width: 50%;
+}
+
+.banner-left h2 {
+color: #0B0223;
+font-size: 2rem;
+}
+
+.banner-left h1 {
+font-size: 3rem;
+font-weight: 800;
+color: #bc51d5;
+margin-top: 10px;
+}
+.banner-img {
+width: 50%;
+text-align: center;
+}
+
+.banner-img img {
+width: 70%;
+height: auto;
+}
+.banner-left ul {
+  margin-top: 15px;
+}
+
+.banner-left ul li {
+  list-style: none;
+  color: #534C64;
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+}
+.btn-primary {
+  background: #ff42a5;
+  border: navajowhite;
+  padding: 12px 25px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 14px;
+}
+
+.banner-btn {
+  margin-top: 25px;
+}
+.second-btn {
+  background: #4ec5f7;
+  border: navajowhite;
+  padding: 12px 24px;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+/* Optional section css */
+.optional-section {
+  padding: 30px 0px;
+}
+
+.optional-inner {
+  display: flex;
+}
+
+.optional-img {
+  width: 50%;
+}
+
+.optional-img img {
+  width: 500px;
+  object-fit: cover;
+}
+
+.optional-content {
+  text-align: right;
+}
+/* Games Services css styles */
+.games-service-area {
+  padding: 50px 0px;
+}
+
+.games-title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.games-title h1 {
+  color: #0B0223;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.games-title p {
+  color: #534C64;
+  font-size: 0.8rem;
+  margin-top: 8px;
+}
+.games-inner-service {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.single-service-games {
+}
+
+.games-img img {
+  width: 100%;
+}
+/* Games about section css */
+.about-game-inner {
+  display: flex;
+  align-items: center;
+}
+
+.games-contet-left h3 {
+  color: #e84abd;
+  font-size: 25px;
+  text-align: center;
+}
+
+.games-contet-left h2 {
+  color: #1a1230;
+  text-align: center;
+}
+
+.games-contet-left p {
+  color: #534C64;
+  font-size: 15px;
+  text-align: right;
+  width: 40%;
+  margin: auto;
+  margin-top: 15px;
+}
+.games-right {
+  width: 50%;
+  text-align: center;
+}
+.second-img {
+  position: relative;
+  top: -150px;
+  left: -167px;
+}
+
+.second-img img {
+  width: 150px;
+}
+
+
+.games-right img {
+  width: 65%;
+}
+/* Carrier section area */
+.carrier-section {
+  background: #ff42a5;
+}
+
+.carrier-inner {
+  display: flex;
+  align-items: center;
+}
+.carrier-contet {
+  width: 50%;
+}
+
+.carrier-img {
+  width: 50%;
+}
+
+.carrier-img img {
+  width: 100%;
+}
+.carrier-contet h2 {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.carrier-contet p {
+  color: #fff;
+  font-size: 15px;
+}
+
+.carrier-list {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  display: flex;
+}
+.carrier-list p {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.list-right {
+  text-align: right;
+}
+
+button.carrier-btn {
+  color: #ff42a5;
+  border: navajowhite;
+  background: #fff;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 12px;
+  font-weight: bold;
 }
