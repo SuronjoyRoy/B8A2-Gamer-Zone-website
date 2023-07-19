@@ -144,9 +144,45 @@ height: auto;
 .optional-content {
   text-align: right;
 }
+.footer-down-item p {
+  font-size: 15px;
+  color: #dddddd91;
+  margin-bottom: 30px;
+}
+
+small p {
+  color: #ddddddbf;
+  font-size: 15px;
+}
+
+.optional-content h1 {
+  color: #c84fce;
+  font-size: 30px;
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+.optional-content p {
+  color: #534C64;
+  font-size: 16px;
+  margin: auto;
+  padding-left: 163px;
+  margin-bottom: 20px;
+}
+.optional-content h6 {
+  color: #544848;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.optional-content h3 {
+  color: #534C64;
+  font-size: 20px;
+  margin-top: 10px;
+}
 /* Games Services css styles */
 .games-service-area {
-  padding: 50px 0px;
+  
 }
 
 .games-title {
@@ -177,6 +213,9 @@ height: auto;
   width: 100%;
 }
 /* Games about section css */
+.about-games-section {
+  margin-bottom: -80px;
+}
 .about-game-inner {
   display: flex;
   align-items: center;
@@ -207,17 +246,16 @@ height: auto;
 }
 .second-img {
   position: relative;
-  top: -150px;
-  left: -167px;
+  top: -127px;
+  left: -161px;
 }
 
 .second-img img {
-  width: 150px;
+  width: 165px !important;
 }
 
-
 .games-right img {
-  width: 65%;
+  width: 320px;
 }
 /* Carrier section area */
 .carrier-section {
@@ -272,4 +310,73 @@ button.carrier-btn {
   border-radius: 25px;
   font-size: 12px;
   font-weight: bold;
+}
+/* Gammer img css styles */
+.gammer-all-img {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.gammer-area {
+  padding: 80px 0px;
+}
+.single-img-game {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gamer-img img {
+  width: 45px;
+}
+/* Footer section css */
+footer {
+  background: #0b0223;
+  padding: 80px 0px;
+  color: #fff;
+  text-align: center;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+.footer-item {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+  margin-top: 45px;
+}
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-icon ul li {
+  list-style: none;
+}
+
+.footer-icon {
+  margin-top: 50px;
+}
+.footer-icon ul li i {
+  font-size: 30px;
+}
+.footer-down-item {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 45px;
+}
+.footer-down-item p {
+  font-size: 15px;
+  color: #dddddd91;
+  margin-bottom: 30px;
+}
+
+small p {
+  color: #ddddddbf;
+  font-size: 15px;
 }
