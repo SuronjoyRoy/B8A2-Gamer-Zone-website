@@ -340,6 +340,14 @@ button.carrier-btn {
 .gamer-img img {
   width: 45px;
 }
+.single-img-game:hover {
+  background: #fff;
+  color: #ff42a5;
+  border: 1px solid #ff42a5;
+  border-radius: 25px;
+  padding: 5px 15px;
+  transition: all0.5s;
+}
 /* Footer section css */
 footer {
   background: #0b0223;
