@@ -118,6 +118,7 @@ height: auto;
   border-radius: 25px;
   color: #fff;
   font-size: 14px;
+  cursor: pointer;
 }
 
 .banner-btn {
@@ -132,6 +133,7 @@ height: auto;
   font-size: 14px;
   font-weight: bold;
   margin-left: 20px;
+  cursor: pointer;
 }
 /* Optional section css */
 .optional-section {
@@ -193,7 +195,10 @@ small p {
 .games-service-area {
   
 }
-
+.second-games-title {
+  color: #cb4ecb;
+  padding-left: 10px;
+}
 .games-title {
   text-align: center;
   margin-bottom: 45px;
@@ -211,8 +216,8 @@ small p {
 }
 .games-inner-service {
   display: flex;
-  gap: 15px;
   justify-content: center;
+  gap: 20px;
 }
 
 .single-service-games {
@@ -220,6 +225,36 @@ small p {
 
 .games-img img {
   width: 100%;
+}
+.overlay-btn {
+  width: 100%;
+  height: 100%;
+  top: 3px;
+  left: 0;
+  position: absolute;
+  background: rgba(0,0,0,0.6);
+  opacity: 0;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.overlay-btn:hover{
+  opacity: 1;
+}
+
+.overly {
+  position: relative;
+  text-align: center;
+}
+
+.overlay-btn i {
+  font-size: 35px;
+  color: #fff;
+  margin-top: 115px;
+}
+
+.overlay-btn p {
+  color: #ff42a5;
+  font-size: 25px;
 }
 /* Games about section css */
 .about-games-section {
@@ -311,7 +346,7 @@ small p {
   text-align: right;
 }
 
-button.carrier-btn {
+.carrier-btn {
   color: #ff42a5;
   border: navajowhite;
   background: #fff;
@@ -319,6 +354,7 @@ button.carrier-btn {
   border-radius: 25px;
   font-size: 12px;
   font-weight: bold;
+  cursor: pointer;
 }
 /* Gammer img css styles */
 .gammer-all-img {
