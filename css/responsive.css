@@ -273,7 +273,7 @@ small {
   grid-template-columns: repeat(1, 1fr);
 }
 .games-img {
-  width: 80%;
+  width: 100%;
   margin: auto;
 }
 .games-img img {
