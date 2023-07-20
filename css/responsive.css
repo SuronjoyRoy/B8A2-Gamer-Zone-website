@@ -141,7 +141,8 @@ element.style {
 .gammer-all-img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-left: 10px;
+  padding-left: 90px;
+  row-gap: 20px;
 }
 .footer-item {
   display: grid;
@@ -206,6 +207,12 @@ small {
 }
 .games-title p {
   font-size: 10px;
+}
+.gammer-area {
+  padding: 50px 20px;
+}
+.carrier-contet {
+  margin-left: 0px;
 }
     
 }
@@ -309,6 +316,7 @@ small {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding-left: 10px;
+  gap: 20px;
 }
 .footer-item {
   display: grid;
@@ -374,6 +382,12 @@ small {
 }
 .games-title p {
   font-size: 10px;
+}
+.gammer-area {
+  padding: 50px 20px;
+}
+.carrier-contet {
+  margin-left: 0px;
 }
 
 }
